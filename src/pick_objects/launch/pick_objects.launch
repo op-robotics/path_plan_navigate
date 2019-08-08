@@ -1,0 +1,17 @@
+<launch>
+ 
+ <!--pickup and dropoff zone coordinates -->
+  <param name = "goal_pickup1_x" value = "-7.0"/>
+  <param name = "goal_pickup1_y" value = "-4.0"/>
+  <param name = "goal_pickup2_x" value = "14.0"/>
+  <param name = "goal_pickup2_y" value = "0.0"/>
+  <param name = "goal_dropoff1_x" value = "13.2"/>
+  <param name = "goal_dropoff1_y" value = "8.3"/>
+  <param name = "goal_origin_x" value = "0.0"/>
+  <param name = "goal_origin_y" value = "0.0"/>
+ 
+ <!-- The pick_objects node -->
+  <node name="pick_objects" type="pick_objects" pkg="pick_objects" output="screen">
+  </node>
+
+</launch>
