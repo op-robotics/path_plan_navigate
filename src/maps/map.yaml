@@ -1,0 +1,6 @@
+image: /home/workspace/catkin_ws/src/maps/nav-map.pgm
+resolution: 0.050000
+origin: [-9.780653, -10.546365, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
